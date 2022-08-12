@@ -1,0 +1,203 @@
+.bodii{
+	background-color: #d1d1d1;
+    font-family: sans-serif;
+}
+.wrap{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.card{
+    margin: 10px 10px;
+    width: 350px;
+    height: 430px;
+    position: relative;
+    perspective: 1000px;
+}
+.front, .back{
+position: absolute;
+width: 100%;
+height: 100%;
+left: 0;
+top: 0;
+display: flex;
+/*justify-content: center;
+align-items: center;*/
+transition: 1s;
+backface-visibility: hidden;
+border-radius: 10px;
+}
+.front{
+background-image: url(img2/rekl1.jpg);
+background-repeat: no-repeat;
+background-size: 350px 430px;
+
+}
+.back{
+    background-color: #ffffff;
+    transform: rotateY(180deg);
+}
+.bb{
+    width: 350px;
+    height: 430px;
+    text-align: center;
+    padding-top: 200px;
+    
+}
+
+.bb2{
+    font-size: 24px;
+    text-decoration: underline;
+}
+.bb2:hover{
+    text-decoration: none;
+    color: black;
+}
+.card:hover .front{
+    transform: rotateY(180deg);
+}
+.card:hover .back{
+    transform: rotateY(360deg);
+}
+.rekl2{
+	width: 80px;
+	height: 17px;
+	background: #dad8d8;
+	font-size: 12px;
+	border-radius: 6px;
+	color: #000000;
+    text-align: center;
+    margin: 5px 10px;
+}
+
+
+.card1{
+    margin: 10px 10px;
+    width: 350px;
+    height: 430px;
+    position: relative;
+    perspective: 1000px;
+}
+.front1, .back1{
+position: absolute;
+width: 100%;
+height: 100%;
+left: 0;
+top: 0;
+display: flex;
+/*justify-content: center;
+align-items: center;*/
+transition: 1s;
+backface-visibility: hidden;
+border-radius: 10px;
+}
+.front1{
+background-image: url(img2/rekl2.jpg);
+background-repeat: no-repeat;
+background-size: 350px 430px;
+
+}
+.back1{
+    background-color: #ffffff;
+    transform: rotateY(180deg);
+}
+.bb-1{
+    width: 350px;
+    height: 430px;
+    text-align: center;
+    padding-top: 200px;
+    
+}
+
+.bb2-1{
+    font-size: 24px;
+    text-decoration: underline;
+}
+.bb2-1:hover{
+    text-decoration: none;
+    color: black;
+}
+.card1:hover .front1{
+    transform: rotateY(180deg);
+}
+.card1:hover .back1{
+    transform: rotateY(360deg);
+}
+.rekl2-1{
+	width: 80px;
+	height: 17px;
+	background: #dad8d8;
+	font-size: 12px;
+	border-radius: 6px;
+	color: #000000;
+    text-align: center;
+    margin: 5px 10px;
+}
+
+.card2{
+    margin: 10px 10px;
+    width: 350px;
+    height: 430px;
+    position: relative;
+    perspective: 1000px;
+}
+.front2, .back2{
+position: absolute;
+width: 100%;
+height: 100%;
+left: 0;
+top: 0;
+display: flex;
+/*justify-content: center;
+align-items: center;*/
+transition: 1s;
+backface-visibility: hidden;
+border-radius: 10px;
+}
+.front2{
+background-image: url(img2/rekl3.jpg);
+background-repeat: no-repeat;
+background-size: 350px 430px;
+
+}
+.back2{
+    background-color: #ffffff;
+    transform: rotateY(180deg);
+}
+.bb-2{
+    width: 350px;
+    height: 430px;
+    text-align: center;
+    padding-top: 200px;
+    
+}
+
+.bb2-2{
+    font-size: 24px;
+    text-decoration: underline;
+}
+.bb2-2:hover{
+    text-decoration: none;
+    color: black;
+}
+.card2:hover .front2{
+    transform: rotateY(180deg);
+}
+.card2:hover .back2{
+    transform: rotateY(360deg);
+}
+.rekl2-2{
+	width: 80px;
+	height: 17px;
+	background: #dad8d8;
+	font-size: 12px;
+	border-radius: 6px;
+	color: #000000;
+    text-align: center;
+    margin: 5px 10px;
+}
+

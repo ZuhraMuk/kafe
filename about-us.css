@@ -1,0 +1,215 @@
+* {
+    padding: 0;
+    margin: 0
+  }
+  
+  body {
+    background-color: #000000;
+    
+  }
+  
+  .crossfade > figure {
+    animation: imageAnimation 30s linear infinite 0s;
+    color: transparent;
+    height: 1100px;
+    left: 0px;
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    backface-visibility: visible;
+    background-size: cover;
+    background-position: center;
+    
+  }
+  
+  .crossfade > figure:nth-child(1) {
+    background-image: url('img/1.jpg');
+  }
+  .crossfade > figure:nth-child(2) {
+    animation-delay: 6s;
+    background-image: url('img/2.jpg');
+  }
+  .crossfade > figure:nth-child(3) {
+    animation-delay: 12s;
+    background-image: url('img/3.jpg');
+  }
+  .crossfade > figure:nth-child(4) {
+    animation-delay: 18s;
+    background-image: url('img/4.jpg');
+  }
+  .crossfade > figure:nth-child(5) {
+    animation-delay: 24s;
+    background-image: url('img/5.jpg');
+  }
+  
+  @keyframes imageAnimation {
+    0% {
+      animation-timing-function: ease-in;
+      opacity: 0;
+    }
+    8% {
+      animation-timing-function: ease-out;
+      opacity: 1;
+    }
+    17% {
+      opacity: 1
+    }
+    25% {
+      opacity: 0
+    }
+    100% {
+      opacity: 0
+    }
+  }
+
+  #block{
+    float: left;
+    margin-top: 8px;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  width: 55.5%;
+  height: 110px;
+  padding-bottom: 6px;
+  margin-left: 380px;
+  border-radius: 5px;
+  position: absolute;
+}
+
+.img{
+  width:258px;
+border-top: 3px solid rgb(39, 38, 38);
+font-size: 20px;
+text-align: center;
+}
+
+
+.tab{
+  display: block;
+  width: 244px;
+  height: 70px;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 35px;
+  border: 0.1px solid rgb(243, 239, 239);
+  border-top: 0;
+  border-bottom: 0;
+  color: #756033;
+  font-style: italic;
+  cursor: pointer;
+  margin-left: 2px;
+  font-family: 'Prata', serif;
+}
+.tab:hover{
+border-bottom: 3.5px solid rgb(150, 78, 11) ;
+background-color: rgb(233, 233, 231);
+color: black;
+}
+.tab-1{
+  text-decoration: none;
+}
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+.glavn{
+  margin-top: 10px;
+  float: left;
+  cursor: none;
+  position: absolute;
+  width: 120px;
+  height: 85px;
+  border-radius: 60px;
+  margin-right: 10px;
+  background-color: #ffffff;
+  text-align: center;
+  padding-top: 30px;
+  font-weight: 400;
+ font-family: 'Dancing Script', cursive;
+ font-size: 29px;
+ background-image: url(https://i.pinimg.com/originals/21/90/de/2190de71ca6691321858edbc1eb36197.png);
+ background-size: 127px 127px;
+ background-repeat: no-repeat;
+ background-position: center;
+ color: #000000;
+ margin-left: 200px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+
+
+.about-us{
+    position: absolute;
+    width: 65.5%;
+    border: 1px solid rgb(173, 172, 172);
+    height: 900px;
+    margin-left: 240px;
+    margin-top: 165px;
+    background-color: #ffffff;
+ 
+}
+.about-us1{
+    width: 630px;
+    height: 270px;
+}
+#f{
+float: left;
+}
+.about-us2{
+    width: 253.5px;
+    height: 270px;   
+    background-color: #201601;
+}
+#s{
+float: left;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+.dev{
+  font-family: 'Lobster', cursive;
+  font-size: 20px;
+  color: #a77107;
+  text-align: center;
+  margin-top: 80px;
+  font-style: italic;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+.dev2{
+  font-weight: 400;
+  font-family: 'Caveat', cursive;
+  font-size: 22px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.history{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  height: 628px;
+  font-size: 19px;
+  font-style: italic;
+  text-align: center;
+  line-height: 23px;
+  color: #686666;
+}
+
+.history0{
+  text-align: center;
+  color: #9a19c2;
+}
+.history1{
+  margin-top: 5px;
+  width: 435px;
+  height: 620px;
+  margin-left: 3.5px;
+  border: 1px solid rgb(145, 144, 144);
+  line-height: 24px;
+}
+#h_f{
+  float: left;
+}
+#h_s{
+  float: left;
+}
+.history1:hover{
+  color: #000000;
+}

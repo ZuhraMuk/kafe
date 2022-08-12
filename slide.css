@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    padding: 150px 20px;
+    background: rgb(243, 241, 241);
+    text-align: center;
+}
+.button-prev, .button-next, .slider-wrapper, .dot {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.slider-wrapper{
+    overflow: hidden;
+    width: 650px;
+   margin-bottom: -25px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px 2px rgb(31, 30, 30);
+}
+
+.slider-line{
+    display: flex;
+    position: relative;
+    left: 0;
+    transition: 1s;
+}
+
+
+.button-prev, .button-next{
+    background: rgba(129, 128, 128, 0.0);
+    color: rgb(211, 211, 211);
+    opacity: 0;
+}
+
+.dot:hover { background: rgba(216, 216, 216, 0.8)}
+
+.dot{
+    position: relative;
+    width: 30px;
+    height: 7px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: rgba(194, 194, 194, 0.3);
+    margin: 0 15px;
+}
+ 
+.active{
+    background: rgba(240, 240, 240, 0.7);   
+}
+

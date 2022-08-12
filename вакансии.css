@@ -1,0 +1,355 @@
+* {
+    padding: 0;
+    margin: 0
+  }
+  
+  body {
+    background-color: #000000;
+    
+  }
+  
+  .crossfade > figure {
+    animation: imageAnimation 30s linear infinite 0s;
+    color: transparent;
+    height: 1500px;
+    left: 0px;
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    backface-visibility: visible;
+    background-size: cover;
+    background-position: center;
+    
+  }
+  
+  .crossfade > figure:nth-child(1) {
+    background-image: url('img/1.jpg');
+  }
+  .crossfade > figure:nth-child(2) {
+    animation-delay: 6s;
+    background-image: url('img/2.jpg');
+  }
+  .crossfade > figure:nth-child(3) {
+    animation-delay: 12s;
+    background-image: url('img/3.jpg');
+  }
+  .crossfade > figure:nth-child(4) {
+    animation-delay: 18s;
+    background-image: url('img/4.jpg');
+  }
+  .crossfade > figure:nth-child(5) {
+    animation-delay: 24s;
+    background-image: url('img/5.jpg');
+  }
+  
+  @keyframes imageAnimation {
+    0% {
+      animation-timing-function: ease-in;
+      opacity: 0;
+    }
+    8% {
+      animation-timing-function: ease-out;
+      opacity: 1;
+    }
+    17% {
+      opacity: 1
+    }
+    25% {
+      opacity: 0
+    }
+    100% {
+      opacity: 0
+    }
+  }
+
+  #block{
+    float: left;
+    margin-top: 8px;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  width: 55.5%;
+  height: 110px;
+  padding-bottom: 6px;
+  margin-left: 380px;
+  border-radius: 5px;
+  position: absolute;
+}
+
+.img{
+  width:258px;
+border-top: 3px solid rgb(39, 38, 38);
+font-size: 20px;
+text-align: center;
+}
+
+
+.tab{
+  display: block;
+  width: 244px;
+  height: 70px;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 35px;
+  border: 0.1px solid rgb(243, 239, 239);
+  border-top: 0;
+  border-bottom: 0;
+  color: #756033;
+  font-style: italic;
+  cursor: pointer;
+  margin-left: 2px;
+  font-family: 'Prata', serif;
+}
+.tab:hover{
+    border-bottom: 3.5px solid rgb(150, 78, 11) ;
+    background-color: rgb(233, 233, 231);
+    color: black;
+    }
+    .tab-1{
+      text-decoration: none;
+    }
+    .glavn{
+        margin-top: 10px;
+        float: left;
+        cursor: none;
+        position: absolute;
+        width: 120px;
+        height: 85px;
+        border-radius: 60px;
+        margin-right: 10px;
+        background-color: #ffffff;
+        text-align: center;
+        padding-top: 30px;
+        font-weight: 400;
+       font-family: 'Dancing Script', cursive;
+       font-size: 29px;
+       background-image: url(https://i.pinimg.com/originals/21/90/de/2190de71ca6691321858edbc1eb36197.png);
+       background-size: 127px 127px;
+       background-repeat: no-repeat;
+       background-position: center;
+       color: #000000;
+       margin-left: 200px;
+      }
+
+      @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+      .vakansia{
+        color: rgb(80, 4, 99);
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        margin: 280px 100px;
+        padding-top: 50px;
+        position: absolute;
+        background-color: #eecbff;
+        width: 410px; 
+        height: 340px;
+        font-size: 15px;
+        border-radius: 290px;
+        text-align: center;
+        border: 5px solid rgb(180, 47, 197);
+      }
+     
+      .vakansia1{
+        border: 7px inset rgb(180, 47, 197);
+        margin: 130px 820px;
+        position: absolute;
+        background-color: #ffffff;
+        width:380px;
+        height: 380px;
+        border-radius: 300px;
+        background-image: url(img/11.jpg);
+        background-size: 340px 340px;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      .vakansia1_0{
+        margin: 230px 400px;
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        border-radius: 30px;
+        border: 5px solid rgb(111, 8, 143);
+        background-color: rgb(115, 7, 165);
+      }
+      .vakansia1_0:hover{
+        background-color: rgb(94, 247, 226);
+        border-color: rgb(66, 235, 198);
+      }
+      
+      .vakansia1_1{
+        margin: 350px 550px;
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        border-radius: 50px;
+        border: 5px solid rgb(111, 8, 143);
+        background-color: rgb(122, 16, 172);
+      }
+      .vakansia1_1:hover{
+        background-color: rgb(231, 50, 222);
+        border-color: #ca1d88;
+      }
+      .vakansia1_2{
+        margin: 230px 680px;
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        border-radius: 80px;
+        border: 5px solid rgb(111, 8, 143);
+        background-color: rgb(145, 57, 185);
+      }
+      .vakansia1_2:hover{
+        background-color: rgb(239, 241, 111);
+        border-color: #ebb41c;
+      }
+
+      .vakansia1_3{
+        margin: 560px 900px;
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        border-radius: 80px;
+        border: 5px solid rgb(111, 8, 143);
+        background-color: rgb(145, 57, 185);
+      }
+      .vakansia1_3:hover{
+        background-color: rgb(255, 97, 70);
+        border-color: #c40e0e;
+      }
+
+      .vakansia1_4{
+        margin: 480px 640px;
+        position: absolute;
+        width: 140px;
+        height: 140px;
+        border-radius: 80px;
+        border: 5px solid rgb(111, 8, 143);
+        background-color: rgb(145, 57, 185);
+      }
+      .vakansia1_4:hover{
+        background-color: rgb(43, 235, 75);
+        border-color: #18ca5c;
+      }
+
+      @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+      .vakansia01{
+        color: rgb(39, 3, 48);
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        margin: 890px 790px;
+        padding-top: 50px;
+        position: absolute;
+        background-color: #d992fc;
+        width: 410px; 
+        height: 340px;
+        font-size: 15px;
+        border-radius: 350px;
+        text-align: center;
+        border: 5px solid rgb(202, 4, 228);
+      }
+      .vakansia2{
+        border: 7px solid rgb(126, 16, 141);
+        margin: 1000px 110px;
+        position: absolute;
+        background-color: #ffffff;
+        width:380px;
+        height: 380px;
+        border-radius: 300px;
+        background-image: url(img/12.jpg);
+        background-size: 340px 340px;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      .vakansia2_0{
+        margin: 1030px 540px;
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        border-radius: 50px;
+        border: 5px solid rgb(111, 8, 143);
+        background-color: rgb(115, 7, 165);
+      }
+      .vakansia2_0:hover{
+        background-color: rgb(238, 68, 201);
+        border-color: rgb(201, 8, 152);
+      }
+      .vakansia2_1{
+        margin: 1100px 660px;
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        border-radius: 70px;
+        border: 5px solid rgb(111, 8, 143);
+        background-color: rgb(115, 7, 165);
+      }
+      .vakansia2_1:hover{
+        background-color: rgb(49, 219, 177);
+        border-color: rgb(10, 153, 134);
+      }
+      .vakansia2_2{
+        margin:900px 740px;
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        border-radius: 70px;
+        border: 5px solid rgb(111, 8, 143);
+        background-color: rgb(115, 7, 165);
+      }
+      .vakansia2_2:hover{
+        background-color: rgb(68, 238, 77);
+        border-color: rgb(5, 163, 76);
+      }
+      .vakansia2_3{
+        margin: 1270px 790px;
+        position: absolute;
+        width: 42px;
+        height: 42px;
+        border-radius: 38px;
+        border: 5px solid rgb(111, 8, 143);
+        background-color: rgb(115, 7, 165);
+      }
+      .vakansia2_3:hover{
+        background-color: rgb(220, 240, 40);
+        border-color: rgb(132, 167, 8);
+      }
+      .vakansia2_4{
+        margin: 1250px 500px;
+        position: absolute;
+        width: 78px;
+        height: 78px;
+        border-radius: 50px;
+        border: 5px solid rgb(111, 8, 143);
+        background-color: rgb(115, 7, 165);
+      }
+      .vakansia2_4:hover{
+        background-color: rgb(245, 29, 65);
+        border-color: rgb(206, 12, 28);
+      }
+      .vakansia2_5{
+        margin: 1280px 1100px;
+        position: absolute;
+        width: 78px;
+        height: 78px;
+        border-radius: 50px;
+        border: 5px solid rgb(111, 8, 143);
+        background-color: rgb(115, 7, 165);
+      }
+      .vakansia2_5:hover{
+        background-color: rgb(47, 20, 201);
+        border-color: rgb(31, 5, 177);
+      }
+      .vakansia2_6{
+        margin: 930px 1240px;
+        position: absolute;
+        width: 78px;
+        height: 78px;
+        border-radius: 50px;
+        border: 5px solid rgb(111, 8, 143);
+        background-color: rgb(115, 7, 165);
+      }
+      .vakansia2_6:hover{
+        background-color: rgb(47, 20, 201);
+        border-color: rgb(31, 5, 177);
+      }
+
+      
+
